@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+.phone-screen-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .phone-screen {
+        width: 400px;
+        font-family: 'Josefin Sans', cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(228, 228, 230);
+        background-color: #fff;
+        .header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            padding: 30px 10px 30px 10px;
+            .welcome {
+                margin-bottom: 20px;
+                font-size: 34px;
+                font-weight: 700;
+                color: #71abc0;
+            }
+            .logo {
+                font-size: 34px;
+                font-weight: bold;
+                color: #2596be;
+                letter-spacing: 1px;
+    
+            }
+            .note {
+                margin-top: 40px;
+                font-size: 13px;
+                color: rgb(155, 153, 153);
+            }
+            
+        }
+        .input {
+            width: 100%;
+            padding: 20px;
+            input {
+                display: block;
+                width: 100%;
+                padding: 15px 10px;
+                border: none;
+                outline: none;
+                background-color: #e0e0e0;
+                color: #2596be;
+            }
+        }
+        
+        .button {
+            width: 100%;
+            margin-top: 60px;
+            input {
+                width: 100%;
+                padding: 15px 10px;
+                background-color: #2596be;
+                color: #fff;
+                font-size: 16px;
+                border: none;
+            }
+        }
+    }
+}
+
+

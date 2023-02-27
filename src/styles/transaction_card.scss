@@ -1,0 +1,43 @@
+.pz-transaction-card {
+    display: none;
+    width: 350px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.426);
+    .pz-data-row {
+        .header {
+            padding: 5px 10px;
+            background-color: #62b7d8;
+            color: #fff;
+        }
+        .body {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            .pz-data-row {
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    .key {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .pz-transaction-card {
+        display: inline-block;
+    }
+  }
+  
+@media (max-width: 400px) {
+    .pz-transaction-card {
+        width: 95%;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,20 @@
+.pz-input-container {
+    width: 100%;
+    margin-bottom: 15px;
+    .label {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        padding: 7px 0 7px 0;
+        color: rgb(132, 127, 127);
+    }
+    input {
+        display: block;
+        width: 100%;
+        padding: 15px 10px;
+        border: none;
+        outline: none;
+        background-color: #e0e0e0;
+        color: #2596be;
+    }
+}

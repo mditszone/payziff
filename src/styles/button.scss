@@ -1,0 +1,21 @@
+.pz-button-container {
+    margin: 10px;
+    .button {
+        input {
+            border: none;
+            background-color: #2596be;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        };
+    }
+    .primary {
+        input {
+            border: none;
+            background-color: #013c8420;
+            color: rgb(26, 25, 25);
+            padding: 8px 15px;
+            border-radius: 5px;
+        };
+    }
+}

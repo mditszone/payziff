@@ -1,0 +1,60 @@
+.pz-table {
+    width: 100%;
+    .header {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        span {
+            font-size: 24px;
+            color: #000;
+        }
+    }
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        //border: 1px solid #cbcbcb;
+        empty-cells: show;
+        color: #666;
+        background: #eaebec;
+        table {
+            width: 100%;
+            //border: 1px solid rgb(84, 82, 82);
+            border-collapse: collapse;
+            .column-header {
+                background-color: #eeeeef;
+                font-size: 14px;
+                font-weight: 400;
+                text-align: center;
+                padding: 5px 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+                font-weight: normal;
+                color: #000;
+                border: none;
+                border-bottom: 2px solid rgb(204, 203, 203);
+
+            }
+            .row {
+                padding: 5px 10px;
+                text-align: left;
+                background-color: rgb(243, 243, 248);
+                &:hover {background-color: #62b7d847;}
+            }
+            .field {
+                text-align: center;
+                padding: 5px 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+                font-weight: normal;
+                font-size: 13px;
+                color: rgb(99, 99, 99);
+                border: none;
+                font-weight: normal;
+            }
+        }
+    }
+}

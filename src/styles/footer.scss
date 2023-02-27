@@ -1,0 +1,16 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.pz-footer {
+    background-color: #2596be;
+    height: 13vh;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #e1dfdf;
+}
